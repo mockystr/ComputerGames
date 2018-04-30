@@ -1,0 +1,89 @@
+C:\Users\User\source\repos\ComputerGames\ComputerGames\bin\Debug\ComputerGames.exe.config
+C:\Users\User\source\repos\ComputerGames\ComputerGames\bin\Debug\ComputerGames.exe
+C:\Users\User\source\repos\ComputerGames\ComputerGames\bin\Debug\ComputerGames.pdb
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForAdmin.Main.resources
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForModerator.Main.resources
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.AgeLimitForm.resources
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.ConfigurationForm.resources
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.DevelopersForm.resources
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.EnginesForm.resources
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.GamesForm.resources
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.Main.resources
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForUser.Main.resources
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.Login.resources
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.Properties.Resources.resources
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.csproj.GenerateResource.cache
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.exe
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.pdb
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.GamesPlatformsForm.resources
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.GenresForm.resources
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.LozalizersForm.resources
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.PlatformsForm.resources
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.PublisherDevsForm.resources
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.PublishersForm.resources
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.csprojResolveAssemblyReference.cache
+C:\Users\User\source\repos\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.StoresForm.resources
+F:\курсовая бд\ComputerGames\ComputerGames\bin\Debug\ComputerGames.exe.config
+F:\курсовая бд\ComputerGames\ComputerGames\bin\Debug\ComputerGames.exe
+F:\курсовая бд\ComputerGames\ComputerGames\bin\Debug\ComputerGames.pdb
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.csprojResolveAssemblyReference.cache
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForAdmin.Main.resources
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForModerator.Main.resources
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.AgeLimitForm.resources
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.ConfigurationForm.resources
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.DevelopersForm.resources
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.EnginesForm.resources
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.GamesForm.resources
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.GamesPlatformsForm.resources
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.GenresForm.resources
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.LozalizersForm.resources
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.Main.resources
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.PlatformsForm.resources
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.PublisherDevsForm.resources
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.PublishersForm.resources
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.StoresForm.resources
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForUser.Main.resources
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.Login.resources
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.Properties.Resources.resources
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.csproj.GenerateResource.cache
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.csproj.CoreCompileInputs.cache
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.exe
+F:\курсовая бд\ComputerGames\ComputerGames\obj\Debug\ComputerGames.pdb
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\bin\Debug\ComputerGames.exe.config
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\bin\Debug\ComputerGames.exe
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\bin\Debug\ComputerGames.pdb
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\bin\Debug\itextsharp.dll
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\bin\Debug\itextsharp.pdfa.dll
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\bin\Debug\itextsharp.xtra.dll
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\bin\Debug\itextsharp.xml
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForAdmin.Main.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForModerator.Main.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.AgeLimitForm.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.ConfigurationForm.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.DevelopersForm.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.EnginesForm.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.GamesForm.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.GamesPlatformsForm.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.GenresForm.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.LozalizersForm.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.Main.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.PlatformsForm.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.PublisherDevsForm.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.PublishersForm.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForRedactor.StoresForm.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForUser.Main.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.Login.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.Properties.Resources.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.csproj.GenerateResource.cache
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.csproj.CoreCompileInputs.cache
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.csproj.CopyComplete
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.exe
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.pdb
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForUser.ConfReport.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForUser.DevelopersReport.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForUser.GamesRatingReport.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForUser.GamesReport.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForUser.LocalizersReport.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForUser.PublisherReport.resources
+C:\Users\navru\Desktop\ComputerGames\ComputerGames\obj\Debug\ComputerGames.ForUser.ReviewsReport.resources

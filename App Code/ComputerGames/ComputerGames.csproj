@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{441A429D-E5AA-44B5-A81C-5E3ADDC5F103}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ComputerGames</RootNamespace>
+    <AssemblyName>ComputerGames</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>.\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>.\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>.\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CGDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CGDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ComputerGamesDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ComputerGamesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ForAdmin\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForAdmin\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForModerator\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForModerator\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForRedactor\AgeLimitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForRedactor\AgeLimitForm.Designer.cs">
+      <DependentUpon>AgeLimitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForRedactor\ConfigurationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForRedactor\ConfigurationForm.Designer.cs">
+      <DependentUpon>ConfigurationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForRedactor\DevelopersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForRedactor\DevelopersForm.Designer.cs">
+      <DependentUpon>DevelopersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForRedactor\EnginesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForRedactor\EnginesForm.Designer.cs">
+      <DependentUpon>EnginesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForRedactor\GamesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForRedactor\GamesForm.Designer.cs">
+      <DependentUpon>GamesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForRedactor\GamesPlatformsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForRedactor\GamesPlatformsForm.Designer.cs">
+      <DependentUpon>GamesPlatformsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForRedactor\GenresForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForRedactor\GenresForm.Designer.cs">
+      <DependentUpon>GenresForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForRedactor\LozalizersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForRedactor\LozalizersForm.Designer.cs">
+      <DependentUpon>LozalizersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForRedactor\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForRedactor\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForRedactor\PlatformsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForRedactor\PlatformsForm.Designer.cs">
+      <DependentUpon>PlatformsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForRedactor\PublisherDevsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForRedactor\PublisherDevsForm.Designer.cs">
+      <DependentUpon>PublisherDevsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForRedactor\PublishersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForRedactor\PublishersForm.Designer.cs">
+      <DependentUpon>PublishersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForRedactor\StoresForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForRedactor\StoresForm.Designer.cs">
+      <DependentUpon>StoresForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForUser\ConfReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForUser\ConfReport.Designer.cs">
+      <DependentUpon>ConfReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForUser\DevelopersReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForUser\DevelopersReport.Designer.cs">
+      <DependentUpon>DevelopersReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForUser\GamesRatingReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForUser\GamesRatingReport.Designer.cs">
+      <DependentUpon>GamesRatingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForUser\GamesReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForUser\GamesReport.Designer.cs">
+      <DependentUpon>GamesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForUser\LocalizersReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForUser\LocalizersReport.Designer.cs">
+      <DependentUpon>LocalizersReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForUser\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForUser\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForUser\PublisherReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForUser\PublisherReport.Designer.cs">
+      <DependentUpon>PublisherReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForUser\ReviewsReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForUser\ReviewsReport.Designer.cs">
+      <DependentUpon>ReviewsReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ForAdmin\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForModerator\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForRedactor\AgeLimitForm.resx">
+      <DependentUpon>AgeLimitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForRedactor\ConfigurationForm.resx">
+      <DependentUpon>ConfigurationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForRedactor\DevelopersForm.resx">
+      <DependentUpon>DevelopersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForRedactor\EnginesForm.resx">
+      <DependentUpon>EnginesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForRedactor\GamesForm.resx">
+      <DependentUpon>GamesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForRedactor\GamesPlatformsForm.resx">
+      <DependentUpon>GamesPlatformsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForRedactor\GenresForm.resx">
+      <DependentUpon>GenresForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForRedactor\LozalizersForm.resx">
+      <DependentUpon>LozalizersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForRedactor\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForRedactor\PlatformsForm.resx">
+      <DependentUpon>PlatformsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForRedactor\PublisherDevsForm.resx">
+      <DependentUpon>PublisherDevsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForRedactor\PublishersForm.resx">
+      <DependentUpon>PublishersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForRedactor\StoresForm.resx">
+      <DependentUpon>StoresForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForUser\ConfReport.resx">
+      <DependentUpon>ConfReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForUser\DevelopersReport.resx">
+      <DependentUpon>DevelopersReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForUser\GamesRatingReport.resx">
+      <DependentUpon>GamesRatingReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForUser\GamesReport.resx">
+      <DependentUpon>GamesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForUser\LocalizersReport.resx">
+      <DependentUpon>LocalizersReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForUser\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForUser\PublisherReport.resx">
+      <DependentUpon>PublisherReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForUser\ReviewsReport.resx">
+      <DependentUpon>ReviewsReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="CGDataSet.xsc">
+      <DependentUpon>CGDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CGDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CGDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CGDataSet.xss">
+      <DependentUpon>CGDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ComputerGamesDataSet.xsc">
+      <DependentUpon>ComputerGamesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ComputerGamesDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ComputerGamesDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ComputerGamesDataSet.xss">
+      <DependentUpon>ComputerGamesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
